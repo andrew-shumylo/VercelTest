@@ -1,0 +1,37 @@
+TEST TASK COMPLETED BY:
+Andrii Shumylo
+
+Date: 16/10/2022
+
+TIME ESTIMATION:
+5 hours
+
+
+TEST TASK TO EXECUTE PATH:
+VercelTestTask\cypress\e2e\vercel.cy
+
+TASK DEFENITION:
+Setup a test suite which will:
+1. Go to https://demo.vercel.store
+2. Go to New Arrivals -> ACME Cup
+3. Add ACME Cup to the Cart
+4. Change it quantity to 5 items
+5. Verify that total price is correct (should be cup price * 25)
+6. Close cart menu
+7. Go to Featured → Quarter Zip
+8. Select M Size and add to cart
+9. Verify that Both articles are present in the cart
+10. Verify that Quarter Zip is exactly M size
+11. Verify that total price in cart is correct
+12. Proceed to checkout
+13. Fill form with random values
+14. Proceed to checkout
+15. Select second payment method (USPS Priority Mail International)
+16. Click Continue to payment
+17. Verify presence of text: This store can’t accept payments right now.
+
+
+PROBLEMS:
+When we get to the payment steps (14-17) we get an issue (ScreenshotOfIssue.png).
+!!! This issue not reproduced when we follow the same steps manually.
+
