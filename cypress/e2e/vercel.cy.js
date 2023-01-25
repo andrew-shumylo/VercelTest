@@ -44,7 +44,6 @@ describe('Test task for GlobalTeam.', () => {
     cy.get('.flex-shrink-0 > .border-t > :nth-child(2)')
       .should('have.text', '$125.00')
     //Validate total price is equal "25$"
-    //I'm working with C#, and don't have a lot of experience with JS (Cypress.io). I don't have a time to find how to implement this feature :)
     
   //Close cart menu'
     cy.contains('Close')
